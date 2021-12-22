@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#side-panel {
+    background-color: #95B8D1;
+    margin: 1%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#file-input {
+    visibility: hidden;
+}
+
+label {
+    padding-top: 15%;
+    align-self: center;
+}
+
+#upload-label {
+    display: block;
+    font-size: 20px;
+    padding: 7% 2rem;
+    background: #edafb8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#save-button {
+    margin-top: 20%;
+    background-color: #666A86;
+    height: 7.5%;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#save-button:active:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
